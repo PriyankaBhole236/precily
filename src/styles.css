@@ -1,0 +1,26 @@
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  resize: both;
+  overflow: hidden;
+}
+
+.container[data-width-range="large"] {
+  color: red;
+}
+
+.container[data-width-range="small"] {
+  background-color: red;
+}
+
+.container[data-height-range="large"] {
+  background-color: red;
+}
+
+.container[data-height-range="small"] {
+  background-color: red;
+}
